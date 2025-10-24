@@ -147,7 +147,7 @@ export default function WeatherDashboard() {
           <h2 className="text-2xl font-bold text-red-600 mb-4">Error</h2>
           <p className="text-gray-700">{error}</p>
           <button
-            onClick={fetchWeather}
+            onClick={() => fetchWeather()}
             className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
           >
             Try Again
